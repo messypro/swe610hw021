@@ -31,4 +31,7 @@ class PagesController < ApplicationController
      
       @per=Person.new(name,age.to_i)
   end
+  
+  def me
+  end
 end
